@@ -1,4 +1,4 @@
 FROM "tomcat"
-COPY /mnt/dev/gameoflife/gameoflifeweb/target/gameoflife.war  /usr/local/tomcat/webapps
+COPY /mnt/project/gameoflife/gameoflifeweb/target/gameoflife.war  /usr/local/tomcat/webapps
 EXPOSE 8080
 
